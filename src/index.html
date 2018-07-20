@@ -9,20 +9,20 @@
   </head>
 	<body>
     <div class="roll">
-			<h1>Monte seu rolê aleatório do Ronaldinho Gaúcho</h1>
-			<div class="roll-form">
+			<h1 data-js="title">Monte seu rolê aleatório do Ronaldinho Gaúcho</h1>
+			<div class="roll-form" data-js="form">
 				<div class="roll-form__filds">
-					<h2>Dia do seu aniversário</h2>
-					<select name="day" id="day">
-						<option value="01">01</option>
-						<option value="02">02</option>
-						<option value="03">03</option>
-						<option value="04">04</option>
-						<option value="05">05</option>
-						<option value="06">06</option>
-						<option value="07">07</option>
-						<option value="08">08</option>
-						<option value="09">09</option>
+					<label for="dia">Dia do seu aniversário</label>
+					<select name="dia" data-js="selectDay" >
+						<option value="1">01</option>
+						<option value="2">02</option>
+						<option value="3">03</option>
+						<option value="4">04</option>
+						<option value="5">05</option>
+						<option value="6">06</option>
+						<option value="7">07</option>
+						<option value="8">08</option>
+						<option value="9">09</option>
 						<option value="10">10</option>
 						<option value="11">11</option>
 						<option value="12">12</option>
@@ -48,41 +48,41 @@
 					</select>
 				</div>
 				<div class="roll-form__filds">
-					<h2>Mês do seu aniversário</h2>
-					<select name="day" id="day">
-						<option value="Janeiro">Janeiro</option>
-						<option value="Fevereiro">Fevereiro</option>
-						<option value="Março">Março</option>
-						<option value="Abril">Abril</option>
-						<option value="Maio">Maio</option>
-						<option value="Junho">Junho</option>
-						<option value="Julho">Julho</option>
-						<option value="Agosto">Agosto</option>
-						<option value="Setembro">Setembro</option>
-						<option value="Outubro">Outubro</option>
-						<option value="Novembro">Novembro</option>
-						<option value="Dezembro">Dezembro</option>
+					<label for="mes">Mês do seu aniversário</label>
+					<select name="mes" data-js="selectMonth">
+						<option value="1">Janeiro</option>
+						<option value="2">Fevereiro</option>
+						<option value="3">Março</option>
+						<option value="4">Abril</option>
+						<option value="5">Maio</option>
+						<option value="6">Junho</option>
+						<option value="7">Julho</option>
+						<option value="8">Agosto</option>
+						<option value="9">Setembro</option>
+						<option value="10">Outubro</option>
+						<option value="11">Novembro</option>
+						<option value="12">Dezembro</option>
 					</select>
 				</div>
 				<div class="roll-form__filds">
-					<h2>Cor da sua camiseta</h2>
-					<select name="day" id="day">
-						<option value="Branca">Branca</option>
-						<option value="Preta">Preta</option>
-						<option value="Azul">Azul</option>
-						<option value="Verde">Verde</option>
-						<option value="Amarela">Amarela</option>
-						<option value="Rosa">Rosa</option>
-						<option value="Vermelha">Vermelha</option>
-						<option value="Outra">Outra</option>
+					<label for="cores">Cor da sua camiseta</label>
+					<select name="cores" data-js="selectColors">
+						<option value="1">Branca</option>
+						<option value="2">Preta</option>
+						<option value="3">Azul</option>
+						<option value="4">Verde</option>
+						<option value="5">Amarela</option>
+						<option value="6">Rosa</option>
+						<option value="7">Vermelha</option>
+						<option value="8">Outra</option>
 					</select>
 				</div>
 			</div>
-			<div class="roll-button">
-				<button type='button'>Descobrir</button>
+			<div class="roll-button" data-js="button">
+				<button type='button' data-js="discover">Descobrir</button>
 			</div>
-			<div class="roll-result">
-				<h2>Seu rolê aleatório é: Assistindo em clipe com uma mulher nos ombros</h2>
+			<div class="roll-result" data-js="result">
+				<h2 data-js="result-title"></h2>
 				<div class="roll-result-share">
 					<button type="button" class="facebook">Compartilhar Facebook</button>
 					<button type="button" class="twitter">Compartilhar Twitter</button>
